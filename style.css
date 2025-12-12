@@ -1,0 +1,12 @@
+.posts {
+max-width: 600px;
+text-align: center;
+margin: 20px auto;
+}
+.post-container p{
+    background-color: green;
+    margin-top:15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container my-3 text-center">
+         <form action="">
+        <div class="row">
+            <div class="col-5">
+<h1>Депозитный кулькулятор</h1>
+<p>
+    Первоначальный депозит
+</p>
+<p>
+    Срок вклада
+</p>
+<p>
+    Годовая процентная ставка
+</p>
+<p style="text-align: right;"><strong>Было:</strong></p>
+<p><span id="sum1"></span>
+    <div style="background-color: green; width:40px; height:100px; float:right;"></div> 
+            </div>
+            <div class="col-7 my-3">
+ <label for="exampleInputEmail1" class="form-label">Введите начальный депозит</label>
+    <input id="dep" type="text" value="10000" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+<select id="time"class="form-select my-2" aria-label="Default select example">
+  <option selected>Выбор срока вклада (месяцы)</option>
+  <option value="1">3 месяца</option>
+  <option value="2">6 месяцев</option>
+  <option value="3">12 месяцев (год)</option>
+  <option value="2">24 месяца (2 года)</option>
+  <option value="2">36 месяцев (3 года)</option>
+</select>
+
+    <input id="stavka" type="text" value="13" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+   <p style="text-align: left;"><strong>Станет:</strong></p>
+        <span id="sum2"></span></p>
+        <div id="before" style="background-color: red; width:40px;"></div> 
+            </div>
+        </form>
+     
+        </div>
+        <div class="posts">
+            <h2 class="text-center">Блог</h2>
+            <button id="bt">Показать</button>
+            <div class= "post-container">    
+             <!--<p>
+                <h3></h3>
+                <span></span>
+            </p>-->
+            
+            </div>
+        </div>
+    </div>
+        
+        <script src="my.js"></script>
+</body>
+</html>
